@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yakultgo.github.io/2023/09/06/sync-Mutex%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://yakultgo.github.io/20230908/sync-RWMuter%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://yakultgo.github.io/20230906/sync-Mutex%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-09-06</lastmod>
   </url>
   <url>
-    <loc>https://yakultgo.github.io/2023/09/01/slice%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://yakultgo.github.io/20230901/slice%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-09-06</lastmod>
   </url>
   <url>
-    <loc>https://yakultgo.github.io/2023/08/27/channel%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://yakultgo.github.io/20230827/channel%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-09-02</lastmod>
   </url>
   <url>
-    <loc>https://yakultgo.github.io/2023/08/23/Context%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</loc>
+    <loc>https://yakultgo.github.io/20230823/Context%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</loc>
     <lastmod>2023-09-02</lastmod>
   </url>
   <url>
-    <loc>https://yakultgo.github.io/2023/09/01/map%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://yakultgo.github.io/20230901/map%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-09-02</lastmod>
   </url>
 </urlset> 
