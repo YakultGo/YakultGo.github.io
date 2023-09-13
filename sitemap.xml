@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yakultgo.github.io/2023/09/12/sync-map%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2023-09-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yakultgo.github.io/2023/09/08/sync-RWMutex%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
     
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>https://yakultgo.github.io/</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,7 +102,7 @@
   
   <url>
     <loc>https://yakultgo.github.io/tags/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -102,7 +111,7 @@
   
   <url>
     <loc>https://yakultgo.github.io/categories/go/</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
