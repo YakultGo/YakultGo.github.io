@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yakultgo.github.io/2023/10/22/MIT6-s081-lab-pgtbl/</loc>
+    
+    <lastmod>2023-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yakultgo.github.io/2023/10/16/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95/</loc>
+    
+    <lastmod>2023-10-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yakultgo.github.io/2023/10/15/MIT6-s081-lab-syscall/</loc>
     
     <lastmod>2023-10-16</lastmod>
@@ -130,7 +148,7 @@
 
   <url>
     <loc>https://yakultgo.github.io/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,21 +156,21 @@
   
   <url>
     <loc>https://yakultgo.github.io/tags/go/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yakultgo.github.io/tags/lab/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yakultgo.github.io/tags/C/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -161,21 +179,21 @@
   
   <url>
     <loc>https://yakultgo.github.io/categories/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yakultgo.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yakultgo.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
