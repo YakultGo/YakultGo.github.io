@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>数据结构——树</title>
+      <link href="/2024/04/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E2%80%94%E2%80%94%E6%A0%91/"/>
+      <url>/2024/04/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E2%80%94%E2%80%94%E6%A0%91/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-树"><a href="#1-树" class="headerlink" title="1 树"></a>1 树</h3><p>树是由<code>n</code>个节点构成的有限集，其中当<code>n=0</code>时，称为空树。并且树恰好有<code>n-1</code>条边。</p><p><img src="https://mxshop-yakult.oss-cn-hangzhou.aliyuncs.com/img/image-20240417175415414.png" alt="image-20240417175415414" style="zoom:33%;" /></p><p>其中<code>A</code>是树的根</p><h3 id="2-二叉树"><a href="#2-二叉树" class="headerlink" title="2 二叉树"></a>2 二叉树</h3><p>顾名思义，二叉树就是一个节点只有两个子节点</p><p><img src="https://mxshop-yakult.oss-cn-hangzhou.aliyuncs.com/img/image-20240417175551894.png" alt="image-20240417175551894" style="zoom: 33%;" /></p><p>左边的子节点称为左孩子，右边的节点称为右孩子。二叉树就有比较多的性质了：</p><ol><li>节点数量为<code>n</code>，则边的数量为<code>n-1</code></li><li>度为2的节点个数等于叶子节点个数-1，即$n_2=n_0 -1$</li><li>第<code>k</code>层（k$\geq1$）有$2^k-1$个节点</li><li>节点<code>i</code>（i$\geq 1$）的左儿子编号为$2<em>i$，由儿子编号为$2</em>i+1$</li></ol><p>有下面几种遍历顺序：</p><ol><li>先序遍历</li><li>中序遍历</li><li>后序遍历</li><li>层序遍历</li></ol><h3 id="3-二叉搜素树"><a href="#3-二叉搜素树" class="headerlink" title="3 二叉搜素树"></a>3 二叉搜素树</h3><p>二叉搜索树的左孩子节点的值小于父节点的值，右孩子节点的值大于父节点的值。</p><p><img src="https://mxshop-yakult.oss-cn-hangzhou.aliyuncs.com/img/image-20240417180753315.png" alt="image-20240417180753315" style="zoom:33%;" /></p><p>由于它具有这样的性质，因此查找一个在树上的值，可以使用到二分思想查找，时间复杂度为$O(log n)$，但是在极端情况下，即一条链的时候还是$O(n)$，因此有各种各样的平衡树来解决这个问题。</p><h3 id="4-AVL树"><a href="#4-AVL树" class="headerlink" title="4 AVL树"></a>4 AVL树</h3><p>AVL树是最先发明的自平衡二叉查找树。在AVL树中任何节点的两个子树的高度最大差别为1，所以它也被称为高度平衡树。增加和删除可能需要通过一次或多次树旋转来重新平衡这个树。</p><p><img src="https://mxshop-yakult.oss-cn-hangzhou.aliyuncs.com/img/image-20240417181206467.png" alt="image-20240417181206467" style="zoom:33%;" /></p><p>二叉树的平衡化有两大基础操作： 左旋和右旋。左旋，即是逆时针旋转；右旋，即是顺时针旋转。这种旋转在整个平衡化过程中可能进行一次或多次，这两种操作都是从失去平衡的最小子树根结点开始的(即离插入结点最近且平衡因子超过1的祖结点)。</p><p><img src="https://mxshop-yakult.oss-cn-hangzhou.aliyuncs.com/img/image-20240417181240554.png" alt="image-20240417181240554"></p><p><img src="https://mxshop-yakult.oss-cn-hangzhou.aliyuncs.com/img/image-20240417181256401.png" alt="image-20240417181256401"></p><p>优点：适用于查询场景</p><p>缺点：容易频繁的调整，因此不适用于修改频繁的场景，这也是为什么红黑树用的多的原因。</p><h3 id="5-红黑树"><a href="#5-红黑树" class="headerlink" title="5 红黑树"></a>5 红黑树</h3><p>红黑树是一棵二叉搜索树，它在每个结点上增加了一个存储位来表示结点的颜色，可以是RED或BLACK。通过对任何一条从根到叶子的简单路径上各个结点的颜色进行约束，红黑树确保没有一条路径会比其他路径长出 2 倍，因而是近似平衡的。</p><p>红黑树的原则有以下几点：</p><ul><li>特性1：节点非黑即红</li><li>特性2：根节点一定是黑色</li><li>特性3：叶子节点（NIL）一定是黑色</li><li>特性4：每个红色节点的两个子节点都为黑色。(从每个叶子到根的所有路径上不能有两个连续的红色节点)</li><li>特性5：从任一节点到其每个叶子的所有路径，都包含相同数目的黑色节点。</li></ul><p><img src="https://mxshop-yakult.oss-cn-hangzhou.aliyuncs.com/img/image-20240417195426936.png" alt="image-20240417195426936" style="zoom:50%;" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> go </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Redis字典源码学习</title>
       <link href="/2023/10/27/Redis%E5%AD%97%E5%85%B8%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/"/>
       <url>/2023/10/27/Redis%E5%AD%97%E5%85%B8%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</url>
